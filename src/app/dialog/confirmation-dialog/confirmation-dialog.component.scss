@@ -1,0 +1,27 @@
+.confirmation-dialog {
+  padding: 24px;
+  min-width: 300px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+
+  .dialog-content {
+    margin-bottom: 20px;
+
+    .dialog-message {
+      font-size: 18px;
+      color: #333;
+      font-weight: 500;
+    }
+  }
+
+  .dialog-actions {
+    display: flex;
+    justify-content: space-around;
+
+    button {
+      min-width: 100px;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+}
